@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Jigu Maya Nirjala ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- MUSIC -->
+    <audio id="bgMusic" loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+    <button id="musicBtn" class="music-btn">
+        🔇
+    </button>
+
+
+    <!-- BACKGROUND -->
+    <div class="bg-pattern"></div>
+
+    <div class="floating-symbol symbol-1">𑁍</div>
+    <div class="floating-symbol symbol-2">❈</div>
+    <div class="floating-symbol symbol-3">✦</div>
+    <div class="floating-symbol symbol-4">𑁍</div>
+
+
+    <!-- ================= SCREEN 1 ================= -->
+
+    <section id="screen1" class="screen active">
+
+        <div class="hero">
+
+            <div class="newa-decoration">
+                ✦ 𑁍 ✦ 𑁍 ✦
+            </div>
+
+            <p class="small-title">
+                A LITTLE SECRET FROM 8TH CLASS
+            </p>
+
+            <h1>
+                Hey <span>Nirjala</span> ❤️
+            </h1>
+
+
+
+            <!-- NEWARI LOVE -->
+
+            <p class="newari-love">
+                Ji Chhanta Matina Yana ❤️
+            </p>
+
+            <p class="translation">
+                Some feelings don't really disappear...
+            </p>
+
+            <p class="hero-text">
+                We were classmates once.
+                Life moved on.
+                And somehow, we're talking again.
+            </p>
+
+
+            <!-- START BUTTON -->
+
+            <button id="startBtn" class="main-btn">
+                Let me tell you what I never said… ❤️
+            </button>
+
+            <p class="music-note">
+                🎵 Tap the button and let the story begin
+            </p>
+
+
+            <div class="newa-decoration bottom-decoration">
+                ✦ 𑁍 ✦ 𑁍 ✦
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= SCREEN 2 ================= -->
+
+    <section id="screen2" class="screen">
+
+        <div class="game-section">
+
+            <p class="section-label">
+                A LITTLE GAME FOR YOU
+            </p>
+
+            <h2>
+                Catch My Hearts, Nirjala 💕
+            </h2>
+
+            <p class="section-description">
+                Before I tell you the secret I kept
+                since 8th class...
+                catch 10 hearts.
+            </p>
+
+
+            <div class="progress-container">
+
+                <div id="progress"></div>
+
+            </div>
+
+            <p class="counter">
+                Hearts:
+                <strong>
+                    <span id="heartCount">0</span>/10
+                </strong>
+            </p>
+
+
+            <div id="gameArea"></div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= SCREEN 3 ================= -->
+
+    <section id="screen3" class="screen">
+
+        <div class="message-card">
+
+            <div class="mandala">
+                ✦
+            </div>
+
+            <div class="big-heart">
+                ❤️
+            </div>
+
+            <h2>
+                Okay... now I have to tell you.
+            </h2>
+
+
+            <p>
+                Back in <span>8th class</span>,
+                there was a girl in my class
+                who was a little more special to me
+                than she probably knew.
+            </p>
+
+
+            <p>
+                I never had the courage to say it.
+            </p>
+
+
+            <p>
+                So I kept it as my little secret.
+            </p>
+
+
+            <p class="special-line">
+                And that girl was you, Nirjala. ❤️
+            </p>
+
+
+            <button class="main-btn" onclick="showScreen(4)">
+                There is more... 💗
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= SCREEN 4 ================= -->
+
+    <section id="screen4" class="screen">
+
+        <div class="story-section">
+
+            <p class="section-label">
+                OUR LITTLE STORY
+            </p>
+
+            <h2>
+                Funny how life works...
+            </h2>
+
+
+            <div class="story-card">
+
+                <p>
+                    We were just two classmates
+                    in 8th class.
+                </p>
+
+                <p>
+                    Meanwhile, I was secretly carrying
+                    a little crush for you.
+                </p>
+
+                <p>
+                    You probably never knew.
+                </p>
+
+                <p>
+                    Then school ended.
+                    Time passed.
+                    Everything changed.
+                </p>
+
+                <p>
+                    We went our separate ways.
+                </p>
+
+                <p>
+                    And then somehow...
+                </p>
+
+                <p class="highlight">
+                    we started talking again. ❤️
+                </p>
+
+                <p>
+                    Maybe it's just coincidence.
+                </p>
+
+                <p>
+                    Or maybe some stories
+                    deserve another chapter.
+                </p>
+
+            </div>
+
+
+            <button class="main-btn" onclick="showScreen(5)">
+                Turn the page... 🌙
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= SCREEN 5 ================= -->
+
+    <section id="screen5" class="screen">
+
+        <div class="memories-section">
+
+            <p class="section-label">
+                THEN → NOW
+            </p>
+
+            <h2>
+                Things That Stayed With Me 💭
+            </h2>
+
+            <p class="section-description">
+                Maybe you don't remember them,
+                but somehow I still do.
+            </p>
+
+
+            <div class="memory-grid">
+
+
+                <div class="memory-card">
+
+                    <div class="memory-icon">
+                        🏫
+                    </div>
+
+                    <h3>
+                        8th Class
+                    </h3>
+
+                    <p>
+                        Where this little secret
+                        quietly started.
+                    </p>
+
+                </div>
+
+
+
+                <div class="memory-card">
+
+                    <div class="memory-icon">
+                        ❤️
+                    </div>
+
+                    <h3>
+                        The Crush
+                    </h3>
+
+                    <p>
+                        A feeling I kept hidden
+                        instead of saying it.
+                    </p>
+
+                </div>
+
+
+
+                <div class="memory-card">
+
+                    <div class="memory-icon">
+                        💬
+                    </div>
+
+                    <h3>
+                        We're Talking Again
+                    </h3>
+
+                    <p>
+                        After all these years,
+                        somehow we're here again.
+                    </p>
+
+                </div>
+
+
+
+                <div class="memory-card">
+
+                    <div class="memory-icon">
+                        🪔
+                    </div>
+
+                    <h3>
+                        My Newa Side
+                    </h3>
+
+                    <p>
+                        A little piece of my culture
+                        in a story close to my heart.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <button class="main-btn" onclick="showScreen(6)">
+                One last thing, Nirjala... ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= SCREEN 6 ================= -->
+
+    <section id="screen6" class="screen">
+
+        <div class="final-section">
+
+
+            <!-- SMALL FINAL PHOTO -->
+
+            <div class="final-photo">
+
+                <img
+                    src="nirjala.png"
+                    alt="Nirjala"
+                >
+
+            </div>
+
+
+            <div class="mandala big-mandala">
+                ✦ 𑁍 ✦
+            </div>
+
+
+            <h2>
+                So, Nirjala...
+            </h2>
+
+
+            <p class="final-text">
+                I don't know where this story will go.
+            </p>
+
+
+            <p class="final-text">
+                Maybe nowhere.
+                Maybe somewhere beautiful.
+            </p>
+
+
+            <p class="final-text">
+                But one thing I know for sure...
+                I'm genuinely happy that we're
+                talking again.
+            </p>
+
+
+
+            <!-- LOVE REVEAL -->
+
+            <div class="love-reveal">
+
+                <p>
+                    And after keeping this feeling
+                    for so long...
+                </p>
+
+                <h3>
+                    Ji Chhanta Matina Yana ❤️
+                </h3>
+
+            </div>
+
+
+
+            <!-- DREAM PHOTO -->
+
+            <div class="dream-section">
+
+                <div class="dream-decoration">
+                    ✦ 𑁍 ✦
+                </div>
+
+
+                <div class="dream-photo-frame">
+
+                    <img
+                        src="nirjala.png"
+                        alt="Nirjala wearing Newari traditional dress"
+                    >
+
+                </div>
+
+
+                <p class="dream-text">
+                    My dream is to see you in this dress with me. ❤️
+                </p>
+
+
+                <p class="dream-subtext">
+                    Maybe someday, we can make this little dream a memory.
+                </p>
+
+            </div>
+
+
+
+            <!-- FINAL QUESTION -->
+
+            <div class="final-question">
+
+                <p>
+                    Would you like to make
+                    some new memories with me?
+                </p>
+
+            </div>
+
+
+
+            <!-- ANSWERS -->
+
+            <div class="answer-buttons">
+
+                <button id="yesBtn" class="yes-btn">
+                    YES ❤️
+                </button>
+
+                <button id="noBtn" class="no-btn">
+                    NO 😭
+                </button>
+
+            </div>
+
+
+            <p id="finalResponse"></p>
+
+        </div>
+
+    </section>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
